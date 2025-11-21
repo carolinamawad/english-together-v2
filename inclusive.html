@@ -1,83 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Inclusive Teaching</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Teach Inclusively — English Together</title>
 
-  <!-- TAILWIND -->
+  <!-- Tailwind (opcional pero deja el diseño consistente) -->
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- CSS PERSONAL -->
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body class="bg-gray-50 text-gray-800">
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="css/styles.css" />
 
-  <!-- NAVBAR -->
-  <nav class="bg-blue-900 text-white p-4 shadow-lg">
+  <!-- Forzar Georgia -->
+  <style> * { font-family: Georgia, serif; } </style>
+</head>
+<body class="bg-[#FFF7EE] text-[#4a3426]">
+
+  <!-- NAV -->
+  <nav class="bg-[#F3D6B3] p-4 shadow-md">
     <div class="max-w-5xl mx-auto flex justify-between items-center">
-      <h1 class="text-xl font-bold">English Together</h1>
-      <a href="index.html" class="hover:underline">Home</a>
+      <h1 class="text-2xl font-bold">English Together</h1>
+      <a href="index.html" class="text-[#4a3426] font-semibold hover:underline">Return Home</a>
     </div>
   </nav>
 
-  <!-- HEADER -->
-  <header class="text-center py-10 bg-blue-100">
-    <h2 class="text-4xl font-bold mb-3">Inclusive Teaching</h2>
-    <p class="text-lg">Making learning accessible for every student</p>
+  <!-- HERO -->
+  <header class="max-w-5xl mx-auto mt-8 p-6 bg-white rounded-2xl shadow">
+    <div class="flex flex-col md:flex-row md:items-center gap-6">
+      <div class="flex-1">
+        <h2 class="text-3xl font-bold text-[#8B5E3C] mb-3">Teach Inclusively</h2>
+        <p class="leading-relaxed mb-3">
+          Inclusive teaching means creating lessons where every learner—child, teenager, or adult—feels valued,
+          supported, and engaged. This section offers strategies, resources, and examples to help future teachers
+          design lessons that embrace diversity and promote equity.
+        </p>
+      </div>
+
+      <!-- Example illustration: local uploaded file path (to be transformed to URL) -->
+      <div class="flex-none w-full md:w-64">
+        <img src="/mnt/data/a78695d1-e717-41fb-90c5-3e3a34639977.png"
+             alt="Inclusive teaching illustration"
+             class="w-full rounded-lg shadow-sm border">
+      </div>
+    </div>
   </header>
 
-  <!-- CONTENT -->
-  <main class="max-w-4xl mx-auto p-6 space-y-10">
+  <!-- SECTIONS -->
+  <main class="max-w-5xl mx-auto mt-8 space-y-6">
 
-    <!-- SECTION 1 -->
-    <section class="bg-white p-6 rounded-xl shadow-md">
-      <h3 class="text-2xl font-bold mb-3 text-blue-700">What is Inclusive Teaching?</h3>
-      <p class="leading-relaxed">
-        Inclusive teaching means creating learning environments where all students feel welcomed,
-        supported, and able to participate. It considers different needs, learning styles, backgrounds,
-        and abilities.
-      </p>
-    </section>
-
-    <!-- SECTION 2 -->
-    <section class="bg-white p-6 rounded-xl shadow-md">
-      <h3 class="text-2xl font-bold mb-3 text-blue-700">Strategies</h3>
-
-      <ul class="list-disc pl-6 space-y-2">
-        <li>Use simple and clear instructions.</li>
-        <li>Combine visuals, audio, and text.</li>
-        <li>Offer choices in how students participate.</li>
-        <li>Encourage collaboration and supportive peer learning.</li>
-        <li>Adapt materials for students with diverse needs.</li>
+    <!-- Children -->
+    <section class="bg-white p-6 rounded-xl shadow">
+      <h3 class="text-2xl font-semibold text-[#B46A3C] mb-3">Inclusive Lessons for Children</h3>
+      <ul class="list-disc ml-6 space-y-2 text-[#4a3426]">
+        <li>Use visuals, songs, and play to reach different learning styles.</li>
+        <li>Provide short, varied tasks to maintain attention.</li>
+        <li>Include stories and characters that reflect diverse backgrounds.</li>
+        <li>Encourage collaboration and empathy through group games.</li>
       </ul>
     </section>
 
-    <!-- SECTION 3 -->
-    <section class="bg-white p-6 rounded-xl shadow-md">
-      <h3 class="text-2xl font-bold mb-3 text-blue-700">Why It Matters</h3>
-      <p class="leading-relaxed">
-        Inclusive teaching creates a positive environment, increases participation, and helps students
-        feel valued. It promotes equity and makes learning more effective for everyone.
+    <!-- Teenagers -->
+    <section class="bg-white p-6 rounded-xl shadow">
+      <h3 class="text-2xl font-semibold text-[#B46A3C] mb-3">Inclusive Lessons for Teenagers</h3>
+      <ul class="list-disc ml-6 space-y-2 text-[#4a3426]">
+        <li>Connect lessons to real interests (music, social media, debates).</li>
+        <li>Promote peer collaboration and respect for different perspectives.</li>
+        <li>Use digital tools to make lessons interactive and accessible.</li>
+        <li>Address identity and diversity through projects and discussions.</li>
+      </ul>
+    </section>
+
+    <!-- Adults -->
+    <section class="bg-white p-6 rounded-xl shadow">
+      <h3 class="text-2xl font-semibold text-[#B46A3C] mb-3">Inclusive Lessons for Adults</h3>
+      <ul class="list-disc ml-6 space-y-2 text-[#4a3426]">
+        <li>Focus on practical goals (workplace, travel, personal growth).</li>
+        <li>Provide flexible tasks that respect learners’ experiences.</li>
+        <li>Use authentic materials (emails, presentations, interviews).</li>
+        <li>Encourage reflection and sharing to build confidence.</li>
+      </ul>
+    </section>
+
+    <!-- Key strategies -->
+    <section class="bg-white p-6 rounded-xl shadow">
+      <h3 class="text-2xl font-semibold text-[#8B5E3C] mb-3">Key Strategies Across All Ages</h3>
+      <ul class="list-disc ml-6 space-y-2 text-[#4a3426]">
+        <li><strong>Differentiation</strong> → adapt tasks to varied levels and styles.</li>
+        <li><strong>Multimodality</strong> → combine visuals, audio, movement, and text.</li>
+        <li><strong>Representation</strong> → include diverse voices, cultures, and contexts.</li>
+        <li><strong>Accessibility</strong> → design lessons that all learners can participate in.</li>
+      </ul>
+
+      <p class="mt-4 text-[#4a3426]">
+        Inclusive lessons are not just about content—they are about connection. By adapting strategies for children,
+        adolescents, and adults, teachers create classrooms where every learner can thrive.
       </p>
     </section>
 
-    <!-- BUTTON BACK -->
-    <div class="text-center">
+    <!-- Resources (buttons) -->
+    <section class="bg-white p-6 rounded-xl shadow">
+      <h3 class="text-2xl font-semibold text-[#8B5E3C] mb-4">Recommended Resources</h3>
+
+      <div class="grid md:grid-cols-2 gap-4">
+        <a href="https://www.teachingenglish.org.uk/sites/teacheng/files/2023-11/Workbook_for_inclusive_classrooms.pdf"
+           target="_blank"
+           class="block bg-[#E2B591] hover:bg-[#D9A57A] text-white font-bold py-3 px-4 rounded-lg text-center shadow">
+           Workbook for Inclusive Classrooms (PDF)
+        </a>
+
+        <a href="https://americas.britishcouncil.org/sites/default/files/toolkit_for_inclusive_teaching_strategies_-_british_council.pdf"
+           target="_blank"
+           class="block bg-[#C58955] hover:bg-[#B07844] text-white font-bold py-3 px-4 rounded-lg text-center shadow">
+           Toolkit for Inclusive Teaching Strategies (PDF)
+        </a>
+      </div>
+    </section>
+
+    <!-- Return Home button -->
+    <div class="max-w-5xl mx-auto text-center">
       <a href="index.html"
-        class="bg-blue-700 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-800 transition">
-        ⬅ Back to Home
+         class="inline-block bg-[#8B5E3C] hover:bg-[#734C30] text-white font-bold py-3 px-8 rounded-full shadow-md">
+         ⬅ Return to Home
       </a>
     </div>
 
   </main>
 
-  <!-- BOTÓN SCROLL TO TOP -->
-  <button id="scrollToTopBtn" class="hidden">⬆</button>
+  <!-- Footer (spacer) -->
+  <footer class="h-16"></footer>
 
-  <!-- JS -->
   <script src="js/main.js"></script>
-
 </body>
 </html>
-
