@@ -27,15 +27,17 @@ scrollToTopBtn.addEventListener("click", () => {
 const sections = document.querySelectorAll("section");
 
 const observer = new IntersectionObserver(
-  (entries) => {
+  (entries, observer) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
-        entry.target.classList.add("fade-in");
+        entry.target.classList.add("fade-in"); // agrega clase para animar
+        observer.unobserve(entry.target); // deja de observar la sección
       }
     });
   },
-  { threshold: 0.2 }
+  { threshold: 0.2 } // activa cuando el 20% de la sección es visible
 );
 
+// Observar cada sección
 sections.forEach((section) => observer.observe(section));
 
