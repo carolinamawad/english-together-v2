@@ -1,37 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>English Together - Home</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>English Together</title>
+
+  <!-- TAILWIND -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- ESTILOS -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- FUENTE GEORGIA -->
+  <style>
+    * { font-family: Georgia, serif; }
+  </style>
 </head>
-<body>
-  <header>
-    <h1>English Together</h1>
-    <p>Future English teachers face the challenge of planning lessons for children, adolescents, and adults—each with distinct needs, motivations, and learning styles. English Together offers a practical, multimodal guide to design inclusive and engaging lessons that work across diverse classrooms.</p>
+
+<body class="bg-[#FFF7EE] text-gray-800">
+
+  <!-- HERO -->
+  <header class="text-center py-16 bg-[#F3D6B3] shadow-lg">
+    <h1 class="text-5xl font-extrabold text-[#4A3426] mb-4">English Together</h1>
+    <p class="max-w-3xl mx-auto text-lg leading-relaxed text-[#6A4A3C]">
+      A multimodal guide to help future English teachers design inclusive, age-appropriate 
+      lessons for children, adolescents, and adults.
+    </p>
   </header>
 
-  <main>
-    <div class="buttons">
-      <!-- Botón 1 -->
-      <a href="self-discovery.html" class="btn">Start Your Journey</a>
-      <!-- Botón 2 -->
-      <a href="planning.html" class="btn">Planning Lessons</a>
-      <!-- Botón 3 -->
-      <a href="learning-styles.html" class="btn">Learning Styles</a>
-      <!-- Botón 4 -->
-      <a href="inclusive.html" class="btn">Teach Inclusively</a>
-      <!-- Botón 5 -->
-      <a href="audio-pronunciation.html" class="btn">Classroom Audio & Pronunciation</a>
-    </div>
-  </main>
+  <!-- BOTONES / CARDS -->
+  <section class="max-w-5xl mx-auto grid md:grid-cols-2 gap-8 p-8">
 
-  <footer>
-    <p>English Together - A Multimodal Teaching Guide for Future Educators</p>
+    <!-- Card 1 -->
+    <a href="self-discovery.html"
+       class="p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl hover:-translate-y-1 transition transform block">
+      <h2 class="text-2xl font-bold text-[#8B5E3C] mb-2">✨ Start Your Journey</h2>
+      <p class="text-[#4A3426]">Reflect on who you are as a future English teacher.</p>
+    </a>
+
+    <!-- Card 2 -->
+    <a href="planning.html"
+       class="p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl hover:-translate-y-1 transition transform block">
+      <h2 class="text-2xl font-bold text-[#8B5E3C] mb-2">📝 Planning Lessons</h2>
+      <p class="text-[#4A3426]">Learn how to build inclusive and effective English lessons.</p>
+    </a>
+
+    <!-- Card 3 -->
+    <a href="learning-styles.html"
+       class="p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl hover:-translate-y-1 transition transform block">
+      <h2 class="text-2xl font-bold text-[#8B5E3C] mb-2">🎨 Learning Styles</h2>
+      <p class="text-[#4A3426]">Discover how auditory, visual, and kinesthetic learners thrive.</p>
+    </a>
+
+    <!-- Card 4 -->
+    <a href="inclusive.html"
+       class="p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl hover:-translate-y-1 transition transform block">
+      <h2 class="text-2xl font-bold text-[#8B5E3C] mb-2">🤝 Teach Inclusively</h2>
+      <p class="text-[#4A3426]">Strategies for adapting lessons to diverse age groups.</p>
+    </a>
+
+    <!-- Card 5 -->
+    <a href="audio-pronunciation.html"
+       class="p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl hover:-translate-y-1 transition transform block">
+      <h2 class="text-2xl font-bold text-[#8B5E3C] mb-2">🎧 Classroom Audio & Pronunciation</h2>
+      <p class="text-[#4A3426]">Explore audio models and pronunciation activities.</p>
+    </a>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center py-8 text-[#6A4A3C]">
+    English Together — A Multimodal Teaching Guide for Future Educators
   </footer>
 
-  <script src="js/main.js" defer></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
-
