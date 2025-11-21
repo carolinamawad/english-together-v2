@@ -1,52 +1,81 @@
-<div class="min-h-screen bg-[#f8f1e7]">
-  <!-- HERO -->
-  <section class="text-center py-24 px-6 bg-[#e6c8aa] shadow-md">
-    <h1 class="text-5xl font-extrabold text-[#4a2e1b] mb-4">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>English Together</title>
+
+  <!-- TAILWIND -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- GOOGLE FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet" />
+
+  <!-- CUSTOM STYLES -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body class="bg-[#fdf7f2]">
+
+  <!-- HEADER -->
+  <header class="bg-[#e9c8a7] py-12 text-center shadow-md border-b border-[#d6b493]">
+    <h1 class="font-['Playfair Display'] text-5xl font-bold text-[#4a2e1f]">
       English Together
     </h1>
-    <p class="text-xl text-[#4a2e1b] max-w-3xl mx-auto">
-      A multimodal guide for future English teachers to design inclusive,
-      engaging, and age-appropriate lessons.
+    <p class="mt-4 text-lg font-['Inter'] text-[#4a2e1f] max-w-3xl mx-auto">
+      A multimodal guide to help future English teachers design inclusive, engaging, and age-appropriate lessons.
     </p>
-
-    <a href="#resources" 
-       class="mt-6 inline-block bg-[#4a2e1b] text-[#f8f1e7] px-6 py-3 rounded-xl text-lg font-semibold hover:bg-[#6b4530] transition">
-       Explore Resources
+    <a href="#resources"
+      class="mt-6 inline-block bg-[#4a2e1f] text-white px-6 py-3 rounded-full shadow-md hover:bg-[#6b4633] transition transform hover:scale-105">
+      Explore Resources
     </a>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <section id="resources" class="max-w-5xl mx-auto mt-16 px-6 grid md:grid-cols-2 gap-8">
+
+    <!-- CARD 1 -->
+    <a href="self-discovery.html" class="block bg-white p-8 rounded-2xl shadow hover:shadow-xl transition border border-[#eadfdb]">
+      <h2 class="text-2xl font-['Playfair Display'] text-[#4a2e1f] mb-3">Start Your Journey</h2>
+      <p class="text-[#4a2e1f] font-['Inter']">Introduction and foundational concepts for future educators.</p>
+    </a>
+
+    <!-- CARD 2 -->
+    <a href="planning.html" class="block bg-white p-8 rounded-2xl shadow hover:shadow-xl transition border border-[#eadfdb]">
+      <h2 class="text-2xl font-['Playfair Display'] text-[#4a2e1f] mb-3">Planning Lessons</h2>
+      <p class="text-[#4a2e1f] font-['Inter']">Step-by-step tools to design effective and inclusive lessons.</p>
+    </a>
+
+    <!-- CARD 3 -->
+    <a href="learning-styles.html" class="block bg-white p-8 rounded-2xl shadow hover:shadow-xl transition border border-[#eadfdb]">
+      <h2 class="text-2xl font-['Playfair Display'] text-[#4a2e1f] mb-3">Learning Styles</h2>
+      <p class="text-[#4a2e1f] font-['Inter']">Strategies for diverse learners in multimodal environments.</p>
+    </a>
+
+    <!-- CARD 4 -->
+    <a href="inclusive.html" class="block bg-white p-8 rounded-2xl shadow hover:shadow-xl transition border border-[#eadfdb]">
+      <h2 class="text-2xl font-['Playfair Display'] text-[#4a2e1f] mb-3">Teach Inclusively</h2>
+      <p class="text-[#4a2e1f] font-['Inter']">Guidance for adapting teaching to all students’ needs.</p>
+    </a>
+
+    <!-- CARD 5 -->
+    <a href="classroom.html" class="block bg-white p-8 rounded-2xl shadow hover:shadow-xl transition border border-[#eadfdb]">
+      <h2 class="text-2xl font-['Playfair Display'] text-[#4a2e1f] mb-3">Classroom Tips</h2>
+      <p class="text-[#4a2e1f] font-['Inter']">Practical advice to manage the classroom effectively.</p>
+    </a>
+
+    <!-- CARD 6 -->
+    <a href="audio.html" class="block bg-white p-8 rounded-2xl shadow hover:shadow-xl transition border border-[#eadfdb]">
+      <h2 class="text-2xl font-['Playfair Display'] text-[#4a2e1f] mb-3">Audio & Pronunciation</h2>
+      <p class="text-[#4a2e1f] font-['Inter']">Tools to help teach clear pronunciation and listening skills.</p>
+    </a>
+
   </section>
 
-  <!-- SECCIONES -->
-  <section id="resources" class="py-20 px-10 max-w-5xl mx-auto grid md:grid-cols-3 gap-10">
-    
-    <div class="bg-white p-6 rounded-2xl shadow">
-      <h3 class="text-2xl font-bold text-[#4a2e1b] mb-2">Start Your Journey</h3>
-      <p class="text-[#4a2e1b]">Introduction and foundational concepts for future educators.</p>
-    </div>
-    
-    <div class="bg-white p-6 rounded-2xl shadow">
-      <h3 class="text-2xl font-bold text-[#4a2e1b] mb-2">Planning Lessons</h3>
-      <p class="text-[#4a2e1b]">Step-by-step tools to design effective and inclusive lessons.</p>
-    </div>
+  <!-- SCROLL BUTTON -->
+  <button id="scrollToTopBtn" class="hidden">↑</button>
 
-    <div class="bg-white p-6 rounded-2xl shadow">
-      <h3 class="text-2xl font-bold text-[#4a2e1b] mb-2">Learning Styles</h3>
-      <p class="text-[#4a2e1b]">Strategies for diverse learners in multimodal environments.</p>
-    </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
 
-    <div class="bg-white p-6 rounded-2xl shadow">
-      <h3 class="text-2xl font-bold text-[#4a2e1b] mb-2">Teach Inclusively</h3>
-      <p class="text-[#4a2e1b]">Guidance for adapting teaching to all students’ needs.</p>
-    </div>
-
-    <div class="bg-white p-6 rounded-2xl shadow">
-      <h3 class="text-2xl font-bold text-[#4a2e1b] mb-2">Classroom Tips</h3>
-      <p class="text-[#4a2e1b]">Practical advice to manage the classroom effectively.</p>
-    </div>
-
-    <div class="bg-white p-6 rounded-2xl shadow">
-      <h3 class="text-2xl font-bold text-[#4a2e1b] mb-2">Audio & Pronunciation</h3>
-      <p class="text-[#4a2e1b]">Tools to help you teach clear pronunciation and listening skills.</p>
-    </div>
-
-  </section>
-</div>
