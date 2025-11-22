@@ -154,3 +154,17 @@ a:hover {
 #scrollToTopBtn:hover {
   background-color: #2563eb;
 }
+
+/* --------------------------------------------------
+   FOOTER BAR (nuevo)
+-------------------------------------------------- */
+
+.footer-bar {
+  background-color: #d97706; /* cafecito */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  margin-top: 2rem;
+}
