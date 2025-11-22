@@ -155,16 +155,19 @@ a:hover {
   background-color: #2563eb;
 }
 
-/* --------------------------------------------------
-   FOOTER BAR (nuevo)
--------------------------------------------------- */
-
+/* ————————————————
+   FOOTER BAR (FULL-WIDTH STRIP)
+——————————————— */
 .footer-bar {
-  background-color: #d97706; /* cafecito */
-  color: white;
+  background-color: #e9c8a7;     /* mismo tono cafecito */
+  color: #4a2e1f;
   text-align: center;
-  padding: 1rem;
-  font-size: 0.95rem;
-  letter-spacing: 0.5px;
-  margin-top: 2rem;
+  width: 100%;
+  padding: 25px 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  border-top: 1px solid #d6b493;
+
+  /* SEPARACIÓN DE LAS TARJETAS */
+  margin-top: 80px;
 }
