@@ -28,6 +28,14 @@
   <!-- CONTENT WRAPPER -->
   <main class="max-w-4xl mx-auto px-6 py-16 space-y-16">
 
+    <!-- RETURN HOME (botón centrado y con ancho contenido) -->
+    <div class="text-center">
+      <!-- inline style asegura que no ocupe 100% (tu .back-btn en CSS daba width:100%) -->
+      <a href="index.html" class="back-btn" style="display:inline-block; width:auto; padding-left:20px; padding-right:20px;">
+        ← Return Home
+      </a>
+    </div>
+
     <!-- CHILDREN -->
     <section>
       <h2 class="text-3xl font-['Playfair Display'] font-bold mb-4">Inclusive Lessons for Children</h2>
@@ -105,6 +113,10 @@
     Designed for TEACHING ENGLISH TO CHILDREN, ADOLESCENTS AND ADULTS – Students Group 106
   </footer>
 
+  <!-- SCROLL TO TOP BUTTON (si lo usas) -->
+  <button id="scrollToTopBtn" class="hidden">↑</button>
+
   <script src="js/main.js"></script>
 </body>
 </html>
+
